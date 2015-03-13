@@ -1,0 +1,34 @@
+{
+  "name": "testing-with-mocha-chai-sinon",
+  "version": "0.0.1",
+  "description": "Javascript unit testing with mocha, chai and sinon (study)",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:flyingkrai/testing-with-mocha-chai-sinon.git"
+  },
+  "keywords": [
+    "node",
+    "mocha",
+    "chai",
+    "sinon",
+    "unit",
+    "testing"
+  ],
+  "author": "Davi Alves <hey@davialves.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flyingkrai/testing-with-mocha-chai-sinon/issues"
+  },
+  "homepage": "https://github.com/flyingkrai/testing-with-mocha-chai-sinon",
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "express": "^4.12.2"
+  }
+}
