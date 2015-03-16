@@ -4,7 +4,7 @@
   "description": "Javascript unit testing with mocha, chai and sinon (study)",
   "main": "server.js",
   "scripts": {
-    "test": "karma start local.karma.conf.js"
+    "test": "./node_modules/karma/bin/karma start local.karma.conf.js"
   },
   "repository": {
     "type": "git",
