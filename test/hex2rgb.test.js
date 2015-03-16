@@ -2,7 +2,7 @@ var
   expect = require('chai').expect,
   hex2rgb = require('../lib/hex2rgb');
 
-describe.only("HEX2RGB Lib", function () {
+describe("HEX2RGB Lib", function () {
 
   describe("#hex2rgb", function () {
 
